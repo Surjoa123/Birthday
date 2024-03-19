@@ -6,10 +6,12 @@ body,
     height: 100%;
     font-family: 'Kaushan Script', 'Sail', cursive;
 }
-:root{
+
+:root {
     --image: url("img/image1.jpg");
-    
+
 }
+
 body {
     background: #e74;
     overflow: hidden;
@@ -36,14 +38,14 @@ div#beach {
 }
 
 div#video {
-    
+
     position: absolute;
     right: 243px;
     bottom: 193px;
 
     --color: #71d8f5;
-    --color2:rgb(113, 216, 245, 0.9); 
-    
+    --color2: rgb(113, 216, 245, 0.9);
+
 }
 
 div#video iframe {
@@ -70,16 +72,16 @@ div#video iframe {
     margin: 0 10px;
     display: inline-block;
     left: 26rem;
-  } 
-  
-  
-  #buttontext{
+}
+
+
+#buttontext {
     font-family: 'Fredoka One', cursive;
-    font-size: 2vw; 
+    font-size: 2vw;
     vertical-align: center;
     position: static;
-  }
-  
+}
+
 
 
 /* #buttontext {
@@ -560,159 +562,241 @@ div#sea {
         right: 230px;
     }
 }
+
 /* responsive */
 @media screen and (max-width: 690px) {
-    .moon{
+    .moon {
         top: 4%;
         right: 39px;
     }
-    #bt{
-        top : -11rem;
-        left : 12rem;
+
+    #bt {
+        top: -11rem;
+        left: 12rem;
         height: 4vh;
 
     }
 }
+
 @media screen and (max-width: 602px) {
-   #bt{
-     top: -1rem;
-     left: 5rem;
-   }
-   div#video{
-    left: 7rem;
-    bottom: 196px;
-   }
-}
-@media screen and (max-width: 526px) {
-   
-   div#video{
-    left: 1rem;
-    bottom: 200px;
-   }
-   .icons{
-    top: 4rem;
-    height: 4rem;
-   }
-   .moon {
-    top: 33%;
-    right: 54px;
+    #bt {
+        top: -1rem;
+        left: 5rem;
+    }
+
+    div#video {
+        left: 7rem;
+        bottom: 196px;
     }
 }
+
+@media screen and (max-width: 526px) {
+
+    div#video {
+        left: 1rem;
+        bottom: 200px;
+    }
+
+    .icons {
+        top: 4rem;
+        height: 4rem;
+    }
+
+    .moon {
+        top: 33%;
+        right: 54px;
+    }
+}
+
 @media screen and (max-width: 460px) {
-   
-    div#beach{
+
+    div#beach {
         left: 1.4rem;
     }
-    .icons{
+
+    .icons {
         font-size: 11px;
     }
-    div#video iframe{
+
+    div#video iframe {
         border: none;
         width: 12rem;
     }
-    div#video{
+
+    div#video {
         left: 1.7rem;
     }
-    #bt{
+
+    #bt {
         left: 4rem;
     }
 }
+
+@media screen and (max-width: 455px) {
+    #merrywrap {
+        width: 30rem;
+        height: 51rem;
+    }
+
+    .giftbox {
+        top: 32rem;
+    }
+
+    .icons {
+        font-size: 43px;
+    }
+}
+
 @media screen and (max-width: 440px) {
-    div#beach{
+    div#beach {
         left: 2.4rem;
     }
-    div#video iframe{
+
+    div#video iframe {
         width: 10rem;
     }
-    div#video{
+
+    div#video {
         left: 3rem;
     }
-    #people{
+
+    #people {
         left: 5rem;
     }
-    div#sea{
+
+    div#sea {
         width: 30rem;
     }
-    #merrywrap{
-        
+
+    #merrywrap {
+
         width: 107%;
         height: 111%;
     }
-    .giftbox{
+
+    .giftbox {
         top: 29rem;
     }
-    
+
 }
+
 @media screen and (max-width: 431px) {
-     .giftbox {
+    .giftbox {
         top: 33rem;
     }
 }
-@media screen and (max-width: 420px) {
-    div#sea{
+
+@media screen and (max-width: 425px) {
+    div#sea {
         width: 29rem;
     }
-    .moon{
+
+    .moon {
         top: 14rem;
         left: 20rem;
     }
-    .merrywrap{
-        width: 117%;
-        height: 118%;
+
+    #merrywrap {
+        width: 114%;
+        height: 127%;
+    }
+
+    .icons {
+        font-size: 40px;
+
     }
 }
+
 @media screen and (max-width: 391px) {
-    div#video iframe{
+    div#video iframe {
         width: 7rem;
     }
-    #bt{
+
+    #bt {
         left: 1rem;
     }
-    div#video{
+
+    div#video {
         left: 2rem;
     }
-    #video video{
+
+    #video video {
         left: -1rem;
     }
 
 }
+
+@media screen and (max-width: 388px) {
+    #merrywrap {
+        width: 121%;
+        height: 122%;
+    }
+
+    .giftbox {
+        top: 32rem;
+        left: 13rem;
+    }
+
+    div#beach {
+        left: 2.4rem;
+    }
+
+    .moon {
+        top: 7rem;
+    }
+
+    div#video {
+        left: 3rem;
+    }
+}
+
 @media screen and (max-width: 363px) {
     #merrywrap {
         width: 131%;
         height: 130%;
     }
+
     .giftbox {
         left: 12rem;
     }
+
     div#sea {
         width: 30rem;
     }
+
     div#beach {
         width: 27rem;
     }
 
 }
+
 @media screen and (max-width: 340px) {
-    #merrywrap{
+    #merrywrap {
         width: 150%;
         height: 149%;
     }
-    .giftbox{
+
+    .giftbox {
         left: 12rem;
     }
-    div#beach{
+
+    div#beach {
         width: 28rem;
     }
-    div#sea{
+
+    div#sea {
         width: 32rem;
     }
-    div#video{
+
+    div#video {
         left: 3rem;
     }
-    .moon{
+
+    .moon {
         top: 14rem;
     }
-    #bt{
+
+    #bt {
         left: 4rem;
     }
 }
