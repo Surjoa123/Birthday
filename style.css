@@ -588,6 +588,28 @@ div#sea {
         left: 7rem;
         bottom: 196px;
     }
+
+    .icons {
+        justify-content: center;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .moon {
+        left: 27rem;
+        top: 13rem;
+    }
+
+    div#video iframe {
+
+        left: -5rem;
+        position: relative;
+    }
+
+    #bt {
+        left: 1rem;
+    }
 }
 
 @media screen and (max-width: 526px) {
@@ -608,10 +630,16 @@ div#sea {
     }
 }
 
+
 @media screen and (max-width: 460px) {
 
     div#beach {
         left: 1.4rem;
+        width: 28rem;
+    }
+
+    div#sea {
+        width: 38rem;
     }
 
     .icons {
@@ -621,6 +649,7 @@ div#sea {
     div#video iframe {
         border: none;
         width: 12rem;
+        left: 0rem;
     }
 
     div#video {
@@ -630,9 +659,35 @@ div#sea {
     #bt {
         left: 4rem;
     }
+
+    #merrywrap {
+        width: 36rem;
+        height: 63rem;
+    }
+
+    .giftbox {
+        top: 32rem;
+        left: 16rem;
+    }
 }
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 435px) {
+    div#sea {
+        width: 34rem;
+
+    }
+
+    div#beach {
+        width: 32rem;
+    }
+
+    #merrywrap {
+        width: 131%;
+        height: 136%;
+    }
+}
+
+@media screen and (max-width: 454px) {
     #merrywrap {
         width: 30rem;
         height: 51rem;
@@ -747,6 +802,26 @@ div#sea {
 
     div#video {
         left: 3rem;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    #merrywrap {
+        width: 116%;
+        height: 124%;
+    }
+
+    .giftbox {
+        top: 27rem;
+        left: 11rem;
+    }
+
+    #moon {
+        top: 18rem;
+    }
+
+    div#video iframe {
+        left: 0rem;
     }
 }
 
